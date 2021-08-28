@@ -1,6 +1,6 @@
 {
   "name": "homer",
-  "version": "21.07.1.fe",
+  "version": "21.08.27",
   "license": "Apache-2.0",
   "scripts": {
     "serve": "vue-cli-service serve",
