@@ -63,7 +63,7 @@ export default {
   },
   methods: {
     fetchStatus: async function () {
-      const url = `${this.item.url}/api.php`;
+      const url = `${this.item.health_url}/api.php`;
       this.api = await fetch(url)
         .then((response) => response.json())
         .catch((e) => console.log(e));
